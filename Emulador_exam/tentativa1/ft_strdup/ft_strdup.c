@@ -16,7 +16,7 @@ char	*ft_strdup(char *src)
 	while (src[srclen])
 	{
 		dest[srclen] = src[srclen];
-		srclen++
+		srclen++;
 	}
 	dest[srclen] = 0;
 	return (dest);
